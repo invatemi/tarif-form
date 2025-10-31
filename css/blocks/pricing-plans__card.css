@@ -1,0 +1,111 @@
+/* основная карточка */
+.pricing-plans__card{
+    width: fit-content;
+    height: 100%;
+    background-color: #FFFFFF;
+    padding: 36px 32px 24px 32px;
+    border: 1px solid #E2E4E8;
+    border-radius: 28px;
+}
+
+/* заголовок карточки */
+.pricing-plans__card-titel{
+    margin: 0 0 35px 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1,2em;
+
+    display: flex;
+    gap: 8px;
+}
+
+.pricing-plans__card-titel-popular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    padding: 6px 12px;
+    background: linear-gradient(90deg, #537CCB 0%, #9648BD 100%);
+    border-radius: 60px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 115%;
+    letter-spacing: 0.02em;
+
+}
+
+/* данные о тарифе обертка */
+.pricing-plans__card-list{
+    margin: 0 0 23px 0;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* item обетки */
+.pricing-plans__card-item{
+    width: calc(100% - 16px * 2);
+    list-style-type: none;
+}
+
+/* настройка обертки текст */
+.pricing-plans__card-item-txt{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.pricing-plans__card-item-txt::after{
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 34px;
+    background-color: #999899;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* настройка цифр */
+.pricing-plans__card-item-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1,2em;
+    text-align: center;
+    color: #343033;
+
+}
+
+/* нстройка информации */
+.pricing-plans__card-item-info{
+    display: flex;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,3em;
+    color: #343033;
+
+}
+
+.pricing-plans__card-link{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #259DD6;
+    margin: 0 0 28px 0;
+}
+
+.pricing-plans__card-link:hover{
+    color: #9D1881;
+}

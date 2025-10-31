@@ -1,0 +1,24 @@
+.request{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 110px 0 0 0;
+    margin: 0 0 28px 0;
+}
+
+.request__titel{
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 120%;
+    color: #343033;
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+.request-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 940px;
+}

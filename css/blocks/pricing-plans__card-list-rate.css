@@ -1,0 +1,12 @@
+.pricing-plans__card-list-rate{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    height: 439px;
+}
+
+.pricing-plans__card-item-rate{
+    list-style: none;
+}

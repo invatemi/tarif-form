@@ -1,0 +1,32 @@
+.pricing-plans__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pricing-plans__list{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+.pricing-plans__item{
+    list-style: none
+}
+
+.pricing-plans__titel{
+    text-align: center;
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 0;
+    margin: 0 0 60px 0;
+}
+
+.pricing-plans__titel-link{
+    color: #259DD6;
+}

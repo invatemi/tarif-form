@@ -1,0 +1,90 @@
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 20px;
+    width: 276px;
+    height: 56px;
+    border: none;
+    border-radius: 16px;
+
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.btn--gradient-1{
+    background: linear-gradient(270deg, #537CCB 0%, #13AED7 100%);
+}
+
+.btn--gradient-1:hover{
+    background: #537CCB;
+}
+
+.btn--gradient-1:focus{
+    outline: none;
+    background: #537CCB;
+}
+
+.btn--gradient-2{
+    background: linear-gradient(270deg, #9548BD 0%, #547CCB 100%);
+}
+
+.btn--gradient-2:hover{
+    background: #9548BD;
+}
+
+.btn--gradient-2:focus{
+    background: #9548BD;
+}
+
+.btn--gradient-3{
+    background: linear-gradient(270deg, #D812AE 0%, #9548BD 100%);
+
+}
+
+.btn--gradient-3:hover{
+    background: #D812AE;
+}
+
+.btn--gradient-3:focus{
+    background: #D812AE;
+}
+
+.btn--resume:default{
+    width: 131px;
+    height: 40px;
+    border-radius: 60px;
+
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 114.99999999999999%;
+    color: #FFFFFF;
+    background-color: #239DD6;
+
+}
+
+.btn--resume:hover{
+    background-color: #9D1881;
+    color: #FFFFFF;
+}
+
+.btn--resume:focus{
+    outline: none;
+    background-color: #771061;
+    color: #FFFFFF;
+}
+
+.btn--resume:disabled{
+    color: #858385;
+    background-color: #F0F0F0;
+}
+
+.btn--resume-margin{
+    margin-left: auto;
+    margin-top: auto;
+}

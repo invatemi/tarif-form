@@ -1,0 +1,114 @@
+.custom-radio{
+    width: 275px;
+    height: 110px;
+    position: relative;
+    padding: 12px 16px 16px 16px;
+    display: flex;
+    gap: 26px;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 2px solid #E2E4E8;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.custom-radio--min{
+    padding: 0;
+    gap: 12px;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+
+}
+
+.custom-radio__label{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.custom-radio__label--min{
+    padding-left: 36px;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 115%;
+
+}
+
+.custom-radio__label::before{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    content: "";
+    width: 24px;
+    height: 24px;
+    border: 2px solid #259DD6;
+    border-radius: 50%;
+}
+
+.custom-radio__label--min::before{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.custom-radio__label-svg{
+    position: absolute;
+    width: 12px;
+    height: 9px;
+    right: 22px;
+    top: 24px;
+    color: #FFFFFF;
+}
+
+.custom-radio__label-svg--min{
+    top: 50%;
+    transform: translateY(-50%);
+    left: 6px;
+}
+
+.custom-radio__label-number{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #343033;
+}
+
+.custom-radio__label-number-txt{
+    font-weight: 500;
+    font-size: 16px;
+    color: #343033;
+}
+
+.custom-radio__label-number-txt--strong{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.custom-radio__label-txt{
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.custom-radio:has(.custom-radio__field:checked),
+.custom-radio:has(.custom-radio__field:hover),
+.custom-radio:has(.custom-radio__field:focus-visible) {
+  border-color: #259DD6;
+  outline: none;
+}
+
+.custom-radio:has(.custom-radio__field:checked) .custom-radio__label::before{
+    background-color: #259DD6;
+}
+
+.custom-radio--invalid .custom-radio__label::before{
+    border-color: #D72522;
+}

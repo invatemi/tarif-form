@@ -1,0 +1,22 @@
+.main{
+    padding: 40px 0 0 0;
+}
+
+.main-recaptch-txt{
+    margin: 28px 0 0 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    color: #858385;
+    text-align: left;
+}
+
+.main-recaptch-txt-link{
+    color: #259DD6;
+    text-decoration: underline;
+}
+
+.main-recaptch-txt-link:hover{
+    color: #9D1881;
+}

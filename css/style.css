@@ -1,0 +1,23 @@
+/* Global */
+/* ------------------------------------ */
+@import "./global/fonts.css";
+@import "./global/reboot.css";
+@import "./global/container.css";
+@import "./global/visually-hidden.css";
+
+/* Blocks */
+/* ------------------------------------ */
+@import "./blocks/header.css";
+@import "./blocks/footer.css";
+@import "./blocks/main.css";
+@import "./blocks/pricing-plans.css";
+@import "./blocks/pricing-plans__card.css";
+@import "./blocks/pricing-plans__card-info.css";
+@import "./blocks/pricing-plans__card-list-rate.css";
+@import "./blocks/custom-radio.css";
+@import "./blocks/btn.css";
+@import "./blocks/request.css";
+@import "./blocks/request-form.css";
+@import "./blocks/custom-input.css";
+@import "./blocks/custom-checkbox.css";
+@import "./blocks/stage.css";
